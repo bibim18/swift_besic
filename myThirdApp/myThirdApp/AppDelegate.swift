@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  mySecondApp
+//  myThirdApp
 //
-//  Created by Admin on 15/1/2562 BE.
+//  Created by Admin on 16/1/2562 BE.
 //  Copyright © 2562 Saiwarun.Y. All rights reserved.
 //
 
@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
         return true
     }
 
