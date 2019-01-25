@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8436DC8B21FAEA5200D1895D /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8436DC8A21FAEA5200D1895D /* SqueezeNet.mlmodel */; };
+		8436DC8D21FAED4B00D1895D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8436DC8C21FAED4B00D1895D /* Resnet50.mlmodel */; };
 		84CD0DA321F87EBF0097D866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD0DA221F87EBF0097D866 /* AppDelegate.swift */; };
 		84CD0DA521F87EBF0097D866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD0DA421F87EBF0097D866 /* ViewController.swift */; };
 		84CD0DA821F87EBF0097D866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD0DA621F87EBF0097D866 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8436DC8A21FAEA5200D1895D /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../Downloads/SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		8436DC8C21FAED4B00D1895D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 		84CD0D9F21F87EBF0097D866 /* appTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CD0DA221F87EBF0097D866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CD0DA421F87EBF0097D866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				84CD0DA221F87EBF0097D866 /* AppDelegate.swift */,
 				84CD0DA421F87EBF0097D866 /* ViewController.swift */,
+				8436DC8A21FAEA5200D1895D /* SqueezeNet.mlmodel */,
+				8436DC8C21FAED4B00D1895D /* Resnet50.mlmodel */,
 				84CD0DA621F87EBF0097D866 /* Main.storyboard */,
 				84CD0DAC21F87ECC0097D866 /* Assets.xcassets */,
 				84CD0DAE21F87ECC0097D866 /* LaunchScreen.storyboard */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8436DC8D21FAED4B00D1895D /* Resnet50.mlmodel in Sources */,
 				84CD0DAB21F87EBF0097D866 /* appTest.xcdatamodeld in Sources */,
 				84CD0DA521F87EBF0097D866 /* ViewController.swift in Sources */,
 				84CD0DA321F87EBF0097D866 /* AppDelegate.swift in Sources */,
+				8436DC8B21FAEA5200D1895D /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +445,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VK4MR28GSX;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = 78DGM4KB9Z;
 				INFOPLIST_FILE = appTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Y.Saiwarun.appTest;
+				PRODUCT_BUNDLE_IDENTIFIER = Y.Saiwarun.appTestaaabbccc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,13 +464,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VK4MR28GSX;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEVELOPMENT_TEAM = 78DGM4KB9Z;
 				INFOPLIST_FILE = appTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Y.Saiwarun.appTest;
+				PRODUCT_BUNDLE_IDENTIFIER = Y.Saiwarun.appTestaaabbccc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
